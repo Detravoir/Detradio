@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  display: flex;
+}
+
+body {
+  margin: auto;
+  background: linear-gradient(25deg, #100803, rgba(#100803,0)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/106403/Skies0258_3_download600%5B1%5D.jpg);
+}
+
+svg {
+  height: 90vmin;
+}
+
+.depthmap,
+.deep-depthmap {
+  mix-blend-mode: soft-light;
+  // opacity: .6
+}
+
+.shadows {
+  mix-blend-mode: multiply
+}
+
+.highlight {
+  mix-blend-mode: screen
+}
+
+.weather {
+  opacity: .2;
+  mix-blend-mode: overlay
+}
+
+.planet {
+  image {
+    animation: rotation 100s linear infinite
+  }
+  
+  .weather {
+    animation: rotation 50s linear infinite
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: translate(0,0)
+  }
+  100% {
+    transform: translate(-1000px,0)
+  }
+}

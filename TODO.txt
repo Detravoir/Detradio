@@ -1,0 +1,9 @@
+1. Folders -> Style the folders so that it looks like a real windows 95 folder.
+
+2. Radio Stations -> Get more radio stations on the website. (OPTIONAL)
+
+3. Login system -> Make a login system with certain permissions.
+
+4. Saved file -> If you open the saved file on the deskop it'll show the correct values (IF THIS STAYS IN).
+
+5. Grid -> Make a grid for the draggable items on the desktop.
